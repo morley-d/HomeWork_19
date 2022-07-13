@@ -1,3 +1,5 @@
+"""Файл для создания DAO и сервисов чтобы импортировать их везде"""
+
 from app.dao.director import DirectorDAO
 from app.dao.genre import GenreDAO
 from app.dao.movie import MovieDAO

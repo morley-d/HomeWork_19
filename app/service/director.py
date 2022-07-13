@@ -1,3 +1,5 @@
+"""Здесь бизнес-логика, в виде классов или методов."""
+
 from app.dao.director import DirectorDAO
 
 

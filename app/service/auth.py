@@ -1,3 +1,5 @@
+"""Здесь бизнес-логика, в виде классов или методов."""
+
 import calendar
 import datetime
 

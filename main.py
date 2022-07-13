@@ -1,3 +1,6 @@
+"""Основной файл приложения. здесь конфигурируется фласк, сервисы, SQLAlchemy
+    и все остальное что требуется для приложения."""
+
 from flask import Flask
 from flask_restx import Api
 
