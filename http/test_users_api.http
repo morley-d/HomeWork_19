@@ -1,0 +1,46 @@
+POST http://127.0.0.1:10001/users/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "Ron",
+  "password": "1111",
+  "role": "user"
+}
+
+###
+
+GET http://localhost:10001/users/
+Accept: application/json
+
+###
+
+GET http://localhost:10001/users/10
+Accept: application/json
+
+###
+
+PUT http://localhost:10001/users/19
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "trash"
+}
+
+###
+
+DELETE http://localhost:10001/users/1
+Accept: application/json
+
+###
+
+PATCH http://localhost:10001/users/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+###

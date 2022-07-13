@@ -1,0 +1,60 @@
+POST http://localhost:10001/genres/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjU3NzEwNjAwfQ.DAxGdOZ1Zf6SABKrIV4TH9e5lzfXtyOYFHN2B9OIj3Y
+
+{
+  "name": "superka"
+}
+
+###
+
+GET http://localhost:10001/genres/
+Accept: application/json
+
+###
+
+GET http://localhost:10001/genres/10
+Accept: application/json
+
+###
+
+PUT http://localhost:10001/genres/1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjU3NzEwNjAwfQ.DAxGdOZ1Zf6SABKrIV4TH9e5lzfXtyOYFHN2B9OIj3Y
+
+{
+  "name": "trash"
+}
+
+###
+
+DELETE http://localhost:10001/genres/19
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjU3NzEwNjAwfQ.DAxGdOZ1Zf6SABKrIV4TH9e5lzfXtyOYFHN2B9OIj3Y
+
+###
+
+PATCH http://localhost:10001/genres/1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjU3NzEwNjAwfQ.DAxGdOZ1Zf6SABKrIV4TH9e5lzfXtyOYFHN2B9OIj3Y
+
+
+{
+  "name": "superka"
+}
+
+###
+
+GET http://localhost:10001/genres/
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjU3NzEwNjAwfQ.DAxGdOZ1Zf6SABKrIV4TH9e5lzfXtyOYFHN2B9OIj3Y
+
+###
+
+GET http://localhost:10001/genres/1
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjU3NzEwNjAwfQ.DAxGdOZ1Zf6SABKrIV4TH9e5lzfXtyOYFHN2B9OIj3Y
+
+###

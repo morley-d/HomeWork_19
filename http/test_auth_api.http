@@ -1,0 +1,20 @@
+POST http://127.0.0.1:10001/auth/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "Ron",
+  "password": "1111"
+}
+
+###
+
+PUT http://127.0.0.1:10001/auth/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlJvbiIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY4OTM3ODM1fQ.5e4e7d033J1byEjORwQd2aV_JK7fQk3AokL_kMBsYVs"
+}
+
+###

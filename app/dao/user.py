@@ -1,4 +1,4 @@
-from dao.model.user import User
+from app.dao.model.user import User
 
 
 class UserDAO:
@@ -7,6 +7,9 @@ class UserDAO:
         
     def get_one(self, uid):
         return self.session.query(User).get(uid)
+
+    def get_by_username(self, username):
+        return self.session.query(User).filter(User.username == username).first()
 
     def get_all(self):
         return self.session.query(User).all()
